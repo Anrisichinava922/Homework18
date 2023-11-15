@@ -1,0 +1,17 @@
+@media (width > 1440px){
+    .boxes{
+        display: flex;
+        flex-direction: row;
+    }
+    .box2{
+        width: 350px;
+        height: 500px;
+        flex-shrink: 0;
+        padding-top: 54px;
+    }
+    .container{
+        background-image: url(./assets/deskbackright.svg) , url(./assets/deskbackleft.svg);
+        background-repeat: no-repeat;
+        background-position: 100% 0 , 0% 100%;
+    }
+}
